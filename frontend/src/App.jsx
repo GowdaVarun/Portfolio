@@ -6,11 +6,13 @@ import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import React from 'react'
 import './App.css'
+import Chatbot from './components/Chatbot'
 
 function App() {
   return (
     <div className="font-sans">
       <Navbar />
+      <Chatbot />
       <main>
         <Hero />
         <About />

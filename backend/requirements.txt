@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+faiss-cpu
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+# sentence-transformers  # Optional, for Hugging Face fallback
+# torch                  # Required for sentence-transformers
