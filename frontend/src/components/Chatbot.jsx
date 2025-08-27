@@ -25,7 +25,7 @@ const Chatbot = () => {
         setInput('');
 
         try {
-            const response = await fetch('https://portfolio-pal4.onrender.com/ask/', {
+            const response = await fetch('https://portfolio-72cl.onrender.com/ask/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ user_question: userMessage })
