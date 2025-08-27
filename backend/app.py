@@ -25,7 +25,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",  # React local
-    "https://your-frontend.vercel.app"  # production
+    "https://varungowdar.vercel.app"  # production
 ]
 
 app.add_middleware(
